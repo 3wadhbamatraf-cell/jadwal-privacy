@@ -1,106 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Jadwal — Gulf Travel Planner</title>
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: #fafafa;
-    color: #1a1a1a;
-    margin: 0;
-    padding: 0;
-  }
-  .hero {
-    text-align: center;
-    padding: 80px 24px 60px;
-  }
-  .brand {
-    color: #e8730b;
-    font-weight: 600;
-    font-size: 15px;
-    letter-spacing: 0.02em;
-    margin-bottom: 12px;
-  }
-  h1 {
-    font-size: 40px;
-    margin: 0 0 16px;
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .tagline {
-    font-size: 19px;
-    color: #555;
-    max-width: 520px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
-  .features {
-    max-width: 780px;
-    margin: 60px auto;
-    padding: 0 24px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 24px;
-  }
-  .feature {
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 14px;
-    padding: 24px;
-  }
-  .feature h3 {
-    margin: 0 0 8px;
-    font-size: 17px;
-  }
-  .feature p {
-    margin: 0;
-    font-size: 15px;
-    color: #666;
-    line-height: 1.5;
-  }
-  .cities {
-    text-align: center;
-    padding: 40px 24px 80px;
-    color: #888;
-    font-size: 15px;
-  }
-  .cities span {
-    color: #e8730b;
-    font-weight: 600;
-  }
-</style>
-</head>
-<body>
-  <div class="hero">
-    <div class="brand">جدول &middot; Jadwal</div>
-    <h1>Plan your perfect Gulf trip in seconds</h1>
-    <p class="tagline">AI-powered day-by-day itineraries, real hotel prices, and interactive maps — built specifically for Dubai, Abu Dhabi, Riyadh, and Doha.</p>
-  </div>
+:root{--bg:#fffaf5;--card:#ffffff;--text:#1d1d1f;--muted:#6e6e73;--accent:#e8651a;--line:#f0e4d8}
+@media (prefers-color-scheme:dark){:root{--bg:#141210;--card:#1e1b18;--text:#f5f5f7;--muted:#a1a1a6;--accent:#ff8a3d;--line:#2e2924}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 64px}
+header{margin-bottom:28px}.brand{color:var(--accent);font-weight:700;letter-spacing:.3px}
+h1{font-family:Georgia,"Times New Roman",serif;font-size:38px;line-height:1.15;margin:6px 0 8px}
+h2{font-size:20px;margin:32px 0 8px}.muted{color:var(--muted)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px 22px;margin:16px 0}
+a{color:var(--accent)}ul{padding-left:20px}li{margin:4px 0}
+.btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:600;padding:12px 20px;border-radius:14px;margin:6px 8px 6px 0}
+nav a{margin-right:16px;font-weight:600;text-decoration:none}
+.ar{direction:rtl;text-align:right}
+footer{margin-top:48px;font-size:14px}
+</style><title>Jadwal Trip Planner</title></head><body><div class="wrap">
+<nav><a href="index.html">Privacy</a><a href="support.html">Support</a><a href="marketing.html">About Jadwal</a></nav>
+<header><div class="brand">Jadwal · جدول</div><h1>Your trip, planned in seconds.</h1><p class="muted">An AI travel planner made in the UAE, for the Gulf and beyond.</p>
+<a class="btn" href="https://apps.apple.com/ae/app/jadwal-gulf-travel-planner/id6787462127">Download on the App Store</a></header>
 
-  <div class="features">
-    <div class="feature">
-      <h3>AI Itineraries</h3>
-      <p>Get a personalized day-by-day plan built around your interests and budget.</p>
-    </div>
-    <div class="feature">
-      <h3>Real Timing</h3>
-      <p>Every stop is scheduled with real start and end times, so your day actually flows.</p>
-    </div>
-    <div class="feature">
-      <h3>Real Hotel Prices</h3>
-      <p>Compare real nightly rates and ratings — no guesswork, no fine print.</p>
-    </div>
-    <div class="feature">
-      <h3>Interactive Maps</h3>
-      <p>See every place on your plan with photos, pins, and directions.</p>
-    </div>
-  </div>
+<div class="card"><h2 style="margin-top:0">What Jadwal does</h2><ul>
+<li>🗺️ <strong>AI day plans</strong> built around your interests, budget, food needs and who you're travelling with</li>
+<li>🇦🇪 🇸🇦 🇶🇦 <strong>Every emirate, Saudi region and Qatar municipality</strong>, plus trips abroad like Bali, Phuket, Bangkok, the Maldives and Georgia</li>
+<li>✨ <strong>What's On</strong>: concerts, comedy, sports and events, with trending places refreshed monthly</li>
+<li>☀️ ❄️ <strong>Season-smart</strong> picks for summer and winter, and plans that avoid the midday heat</li>
+<li>🚆 <strong>Getting around</strong>: taxi apps, metro and trains, with how to pay</li>
+<li>❤️ <strong>Save places and lists</strong> in English or Arabic</li>
+</ul></div>
 
-  <div class="cities">
-    Built for <span>Dubai</span> &middot; <span>Abu Dhabi</span> &middot; <span>Riyadh</span> &middot; <span>Doha</span>
-  </div>
-</body>
-</html>
+<div class="card ar"><h2 style="margin-top:0">جدول: رحلتك جاهزة في ثواني</h2>
+<p>مخطط رحلات بالذكاء الاصطناعي، مسوّى في الإمارات. خطط حسب اهتماماتك وميزانيتك، فعاليات الشهر، وكل مدن الخليج ووجهات برّا.</p>
+<a class="btn" href="https://apps.apple.com/ae/app/jadwal-gulf-travel-planner/id6787462127">حمّل جدول</a></div>
+
+<p class="muted">Questions or ideas? <a href="mailto:3wadhbamatraf@gmail.com">3wadhbamatraf@gmail.com</a> · <a href="support.html">Support</a> · <a href="index.html">Privacy</a></p>
+<footer class="muted">© 2026 Jadwal · <a href="mailto:3wadhbamatraf@gmail.com">3wadhbamatraf@gmail.com</a></footer></div></body></html>
